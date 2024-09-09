@@ -1,9 +1,15 @@
 Instructions:
+<br /><br />
 1- in appsettings.json, set the connection string according to your machine. and if needed, change the key for JWT Authentication.
+<br />
 2- I have seeded the initial data for the database in DbContextClass.cs. you may change it if needed.
+<br /><br />
 Credentials for Initial user datas:-
+<br />
 (email: admin@gmail.com, password:12345678), (email: rideware@gmail.com, password:12345678)
+<br /><br />
 3- I used Entity Framework for connection. so, complete a migration and update the database then you'll be ready to go. you can use this commands for migration "Add-Migration migration_name"
+<br /><br />
 
 Points to note:-
 I have 2 controllers. one is for registering a user and for login. and the other one is used to perform the CRUD on Employees Table.
